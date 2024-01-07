@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hw-7"
+version = "0.1.0"
+description = ""
+authors = ["MAX"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+faker = "^22.0.0"
+sqlalchemy = "^2.0.25"
+alembic = "^1.13.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
